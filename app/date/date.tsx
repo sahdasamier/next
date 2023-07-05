@@ -7,7 +7,7 @@ export  const pages = [
 	{
 		id: 2,
 		label: "My Projects",
-		link: "/my-projects",
+		link: "/myProject",
 	},
 	{
 		id: 3,
@@ -16,8 +16,8 @@ export  const pages = [
 	},
 ];
 
-export const aboutMeData = {
-	name: "Sahda Samier",
+export const aboutMyData = {
+	name: "Sahda Samier Ahmed",
 	title: "Hello! I'm Sahda Samier",
 	body: "A software engineer with a passion for solving problems with code. I started my journey into the world of software development 2 years ago, and since then I've been constantly learning and improving my skills. My background is in front-end , but I'm always looking for opportunities to branch out and explore new technologies.",
 	highlightedBody:
@@ -37,7 +37,7 @@ export const projects = [
 		body1:
 			"A web application that allows users Playing against the computer or against friends in this X, 0 game.",
 		body2: "Technologies used: HTML, CSS, JavaScript, and react.",
-		image: "luke-chesser-JKUTrJ4vK00-unsplash.jpg",
+		image: "tic_tac_toe.png",
 		links: [
 			{
 				text: "Source Code",
@@ -52,8 +52,8 @@ export const projects = [
 	{
 		title: "Launching a post",
 		body1:"A web application that allows users create their own posts and like or remove any posts on the page as he likes",
-	
-		image: "charlesdeluvio-jtmwD4i4v1U-unsplash.png",
+		body2: "Technologies used: HTML, CSS, JavaScript,redux and react.",
+		image: "share posts.png",
 		links: [
 			{
 				text: "Source Code",
@@ -68,7 +68,8 @@ export const projects = [
 	{
 		title: "Todo List App",
 		body1: "A web application that allows users create your list and when you complete check it as completed if you want to adjust your list you can delete any as you want and it organizes in three tabs all, completed uncompleted. ",
-		image: "tic_tac_toe.png",
+		body2: "Technologies used: HTML, CSS, JavaScript, and react.",
+		image: "todolist3.png",
 		links: [
 			{
 				text: "Source Code",
@@ -85,7 +86,8 @@ export const projects = [
 		title: "Blogging",
 		body1:"A web application that allows users reated two pages one of them, to write your title, blog, and author and another to upload your date which adds as a new blog on our website"
 		,
-		image: "luke-chesser-JKUTrJ4vK00-unsplash.jpg",
+		body2: "Technologies used: HTML, CSS, JavaScript, and react.",
+		image: "share plogs.png",
 		links: [
 			{
 				text: "Source Code",
@@ -100,9 +102,10 @@ export const projects = [
 	
 ];
 
-export const contactMeLinks = [
-	"time2code@gmail",
-	"twiter",
-	"linkedin",
-	"medium",
+export const contactMyLinks = [
+	
+	"https://github.com/sahdasamier",
+	"https://twitter.com/sahda_samier",
+	"https://www.linkedin.com/in/sahda-samier-b2586a186/",
+	"sahdasamier013@gmail",
 ];
