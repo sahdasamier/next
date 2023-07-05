@@ -1,7 +1,8 @@
-import Footer from './components/footer'
-import Header from './components/header'
+import {Footer} from './components/footer'
+import {Header} from './components/header'
 import './globals.css'
 import { Inter } from 'next/font/google'
+import {aboutMyData,pages,contactMyLinks} from './date/date'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,12 +17,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Header/> 
-        {children}
-        <Footer/>
-        </body>
-    </html>
+    <html>
+    <head />
+    <body>
+      <Header name={aboutMyData.name} pages={pages} />
+      <main className='sm:mb-32 mb-16 bg-gray'>{children}</main>
+      <Footer contactMyLinks={contactMyLinks} />
+    </body>
+  </html>
   )
 }
