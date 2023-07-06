@@ -29,7 +29,7 @@ export const aboutMyData = {
 export const contactMeText = {
 	title: "Hello there! ",
 	body: "I am a front end engineer ,I have honed my expertise through practical projects and have developed a deep understanding of building robust and efficient web applications. I am adept at utilizing the power of React and Redux to create scalable and maintainable code, providing seamless user experiences.",
-    body1:"Feel free to contact me through the links below at the footer, and I will get back to you as soon as possible  ",
+    body1:"Feel free to contact me through Gmail or the links below at the footer, and I will get back to you as soon as possible   ",
 	body3:"My sincere thanks and greetings to you "
 };
 
